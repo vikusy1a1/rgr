@@ -20,11 +20,8 @@ int main() {
         << setw(10) << "x2"
         << setw(10) << "x3"
         << setw(10) << "x4"<< endl;
+        
 
-
-    
-
-//vffdv
     return 0;
 }
 
