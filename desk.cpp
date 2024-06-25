@@ -73,11 +73,7 @@ int main() {
     cout << "Enter the coordinates king (x, y): ";
     cin >> king.x >> king.y;
 
-    // Проверка корректности ввода
-    while (king.x < 0 || king.x > 7 || king.y < 0 || king.y > 7) {
-        cout << "incorrect coordinates. Enter (x, y from 0 to 7): ";
-        cin >> king.x >> king.y;
-    }
+   
 
     fillBoard(board, 6, 2, king);
 
