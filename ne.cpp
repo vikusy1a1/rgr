@@ -1,4 +1,4 @@
-Код программы:
+
 #include <iostream>
 #include <algorithm>
 
